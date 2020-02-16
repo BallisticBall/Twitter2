@@ -40,7 +40,7 @@
                         <viewLayoutGuide key="safeArea" id="azK-5y-769"/>
                     </view>
                     <connections>
-                        <segue destination="Y5C-cx-yOI" kind="presentation" id="hOB-xb-XCc"/>
+                        <segue destination="Y5C-cx-yOI" kind="presentation" identifier="loginToHome" id="hOB-xb-XCc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZh-e9-cWo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -110,7 +110,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="ProfileImageView" destination="kKf-lY-iMD" id="QzT-Sy-Apq"/>
+                                    <outlet property="profileImageView" destination="kKf-lY-iMD" id="QzT-Sy-Apq"/>
                                     <outlet property="tweetContent" destination="idH-2M-WDq" id="Pnw-ZP-1To"/>
                                     <outlet property="userNameLabel" destination="B6V-IH-CwO" id="eNU-Vi-9dN"/>
                                 </connections>

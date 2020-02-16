@@ -35,7 +35,7 @@ class LoginViewController: UIViewController {
             self.performSegue(withIdentifier: "loginToHome", sender: self)
             
         }, failure: { (Error) in
-            print("Could not log in!")
+            print("Could not log in! Oh No!")
         })
     }
        
